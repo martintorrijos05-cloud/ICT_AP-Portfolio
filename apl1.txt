@@ -1,0 +1,147 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width-device-width,
+     initial-scale=1.0">
+     <title>Lesson 1</title>
+
+     <!-- Icons -->
+     <link rel="stylesheets" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+     <!-- Styles -->
+     <link rel="stylesheet" href="ap.css">
+
+     <!--Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<section id="hero">
+  <header>
+    <a class="header-logo">E-Portfolio<span>.</span></a>
+    <nav>
+      <a class="nav-item" href="TORRIJOS_E-Portfolio.html">Home</a>
+      <a class="nav-item" href="MyPersonalSpace.html">Personal Space</a>
+      <a class="nav-item" href="tle.html">TLE-ICT</a>
+      <a class="nav-item" href="ap.html">AP</a>
+    </nav>
+  </header>
+
+<hr>
+<br>
+  <section>
+
+    <div class="title"> 
+       <h1> Lesson 1 </h1>
+       <h3> Demand </h3>
+    </div>
+  </section>
+<br>
+      </section>
+
+<div class="batas">
+    <img class="demand" src="demand.png">
+    <img class="demand" src="demand1.png">
+</div>
+
+<div class="content">
+    <h3> Kahulugan </h3>
+    <p> 
+Ang <em> demand </em> ay tumutukoy sa dami ng produkto o serbisyo na gusto at kayang bilhin ng mga mamimili sa isang takdang presyo at panahon. Hindi lahat ng gusto ay maituturing na demand — dapat ay may kakayahan ring bumili ang mamimili. 
+    </p>
+</div>
+
+<br>
+
+<div class="content">
+    <h3> Mga Salik na Nakaaapekto sa Demand </h3>
+    <p>
+<b> Presyo ng Produkto: </b> Kapag tumaas ang presyo, bumababa ang demand; kapag bumaba ang presyo, tumataas ang demand.
+<br>
+
+<b>Kita ng Mamimili:</b> <em> Normal goods</em> – tumataas ang demand kapag tumataas ang kita. <em> Inferior goods</em> – tumataas ang demand kapag mababa ang kita.
+<br>
+
+<b>Panlasa o Kagustuhan:</b> Naapektuhan ng uso, kultura, social media, at endorsements.
+<br>
+
+<b>Populasyon:</b> Kapag mas maraming tao, mas mataas ang demand.
+<br>
+
+<b>Presyo ng Kaugnay na Produkto:</b> <em> Substitute</em>(pamalit) at <em>complementary</em> (magkasabay gamitin).
+<br>
+
+<b>Ekspektasyon sa Presyo:</b> Kung inaasahang tataas ang presyo sa hinaharap, bibilhin na ngayon kaya tataas ang demand.
+<br>
+</div>
+
+<br>
+
+<div class="content">
+     <h3>Batas ng Demand </h3>
+     <blockquote style="text-align: center; font-size: 20px;">
+<b> "Kapag tumaas ang presyo, bumababa ang demand. Kapag bumaba ang presyo, tumataas ang demand."</b>
+     </blockquote>
+     <p style="text-align: center;">
+May magkasalungat o inverse relationship ang presyo at demand.
+     </p>
+</div> 
+<br> 
+<table>
+  <tr>
+    <th>Presyo (₱)</th>
+    <th>Dami ng Bibilhin (Qd)</th>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>40</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>35</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>50</td>
+  </tr>
+</table>
+
+<br>
+
+<div class="content">
+<h3> Paggalaw sa Demand Curve </h3>
+   <p>
+<b> Movement (Extension/Contraction):</b> Pagbabago dahil sa presyo lamang. <br>
+<b> Shift sa Kurba:</b> Paglipat sa <em> kanan </em>– tumataas ang demand kahit walang pagbabago sa presyo; <em> sa kaliwa</em> – bumababa ang demand kahit walang pagbabago sa presyo.
+   </p>
+</div>
+
+<br>
+
+<div class="content">
+<h3> Mga Konsepto na dapat Tandaan! </h3>
+<p>
+<b> Demand ≠ Gusto:</b> Kailangan may kakayahang bumili. <br>
+<b> Purchasing Power: </b>Kakayahan ng pera na makabili ng produkto.<br>
+<b> Ceteris Paribus:</b>  Ibig sabihin <em> “all things being equal” </em>— ginagamit kapag presyo lang ang nagbago sa pag-aaral ng demand.
+</p>
+</div> 
+<br><br>
+<p><em> NOTE: Lahat ng mga litrato ay kinuha mula sa internet. <a href="batasngdemand.pdf"> Batas ng Demand </a></em></p>
+
+
+<!-- BACK TO LECTURES -->
+ <div class="button">
+    <a href="ap.html">Back to Lectures</a>
+  </div>
+ 
+</body>
+</html>

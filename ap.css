@@ -1,0 +1,309 @@
+* {
+   padding: 0;
+   margin: 0;
+   outline: none;
+   border: none;
+   font-family: "Poppins", sans-serif;
+   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* === GENERAL STYLING === */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #6d5dfc, #a485f2);
+  color: #f8f9ff;
+  margin: 0px;
+  padding: 25px;
+  animation: bottomIn 1.4s ease-in-out forwards;
+}
+
+hr {
+  border: none;            
+  height: 2px;             
+  background-color: white;  
+  width: 100%;               
+  margin: 5px 0;
+}
+
+
+header {
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding:0;
+   gap: 100px;
+}
+
+.header-logo {
+   font-size: 32px;
+   font-weight: 800;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: darkblue;
+}
+
+.header-logo span {
+   font-size: 72px;
+   color: darkblue;
+   line-height: 0.2;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item {
+    font-size: 18px;
+    font-weight: 600;
+    color: darkslateblue;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+}
+
+.nav-item:hover {
+    color: darkblue;
+   transition: transform 0.3s;
+}
+
+/* Add underline animation on hover */
+.nav-item::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: darkslateblue;
+    transition: width 0.3s;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+/* === LESSON TITLE === */
+.title {
+  background: rgba(35, 20, 60, 0.85); /* deep violet-black with transparency */
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto 40px;
+  padding: 20px 40px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.25);
+}
+
+.title:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+}
+
+.title h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 0 0 12px rgba(173, 216, 230, 0.8);
+  margin: 0;
+  position: relative;
+}
+
+.title h1::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(to right, #f9d423, #e65c00);
+  border-radius: 2px;
+  margin: 10px auto 0;
+}
+
+/* === CONTENT SECTION === */
+.batas {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+  animation: float 3s ease-in-out infinite alternate;
+}
+
+.demand {
+  width: 420px;
+  min-height: 370px;
+  border: 2px dashed darkslateblue;
+  border-radius: 20px;
+  text-align: center;
+  background: #ffffffcc;
+  box-shadow: 0 8px 16px rgba(72, 61, 139, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+   transform: translateX(50%, 50%);
+   top: 70%;
+   left: 0%;
+   position: relative;
+}
+
+.demand:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 12px 20px rgba(72, 61, 139, 0.25);
+}
+
+* === CREATIVE CONTENT BOX === */
+.content {
+  border-left: 6px solid #ffd700;
+  border-radius: 14px;
+  padding: 20px 25px;
+  margin: 25px auto;
+  max-width: 800px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4), 0 0 25px rgba(255, 215, 0, 0.15);
+  animation: floaty 3s ease-in-out infinite;
+}
+
+.content h3 {
+  color: rgb(255, 247, 220); /* warm pale gold text */
+  margin-top: 25px;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.6), 0 1px 3px rgba(0, 0, 0, 0.7);
+  background: rgba(35, 20, 60, 0.85); /* deep violet-black with transparency */
+  padding: 12px 16px;
+  border-left: 5px solid rgb(255, 215, 0); /* strong gold accent */
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2); /* subtle yellow glow around the box */
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+
+.content p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: white; 
+  margin: 0;
+}
+
+.content p strong {
+  color: #d4af37; /* slightly deeper gold for balance */
+}
+
+/* === TABLE === */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 70%;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  animation: float 3s ease-in-out infinite alternate;
+}
+
+th, td {
+  padding: 14px 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: linear-gradient(to right, #5a189a, #7b2cbf);
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+tr {
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+tr:hover {
+  background-color: #f3e5f5;
+  transform: scale(1.02);
+}
+
+td {
+  font-size: 16px;
+  color: #333;
+}
+
+/* === BACK BUTTON === */
+.button {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.button a {
+  display: inline-block;
+  padding: 12px 25px;
+  background: linear-gradient(to right, darkslateblue, violet);
+  color: white;
+  border-radius: 30px;
+  border: none;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 5px 15px rgba(72, 61, 139, 0.3);
+  transition: all 0.3s ease;
+}
+
+.button a:hover {
+  background: linear-gradient(to right, violet, darkslateblue);
+  transform: scale(1.07);
+  box-shadow: 0 8px 20px rgba(72, 61, 139, 0.4);
+}
+
+/* === ANIMATIONS === */
+@keyframes float {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-8px);
+  }
+}
+
+/* ANIMATION */
+
+@keyframes bottomIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Keyframes for gentle floating motion */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes floaty {
+  0% {
+    transform: translateY(-10px) scale(1.03);
+  }
+  50% {
+    transform: translateY(-15px) scale(1.04);
+  }
+  100% {
+    transform: translateY(-10px) scale(1.03);
+  }
+}

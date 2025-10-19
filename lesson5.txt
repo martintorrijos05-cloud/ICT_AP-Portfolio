@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width-device-width,
+     initial-scale=1.0">
+     <title>Lesson 4</title>
+
+     <!-- Icons -->
+     <link rel="stylesheets" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+     <!-- Styles -->
+     <link rel="stylesheet" href="lesson1.css">
+
+     <!--Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<section id="hero">
+  <header>
+    <a class="header-logo">E-Portfolio<span>.</span></a>
+    <nav>
+      <a class="nav-item" href="TORRIJOS_E-Portfolio.html">Home</a>
+      <a class="nav-item" href="MyPersonalSpace.html">Personal Space</a>
+      <a class="nav-item" href="tle.html">TLE-ICT</a>
+      <a class="nav-item" href="ap.html">AP</a>
+    </nav>
+  </header>
+
+<hr>
+<br>
+
+  <section>
+    <div class="title"> 
+       <h1> Lesson 5 </h1>
+       <h3> CSS Selectors </h3>
+    </div>
+  </section>
+
+
+  <section>
+
+<div class="title2">
+  <h1>Group Selectors</h1>
+  <div class="class">
+    <img class="bhvr2" src="groupselectors.txt.png" alt="span">
+    <img class="bhvr2" src="groupselectors.html.png" alt="span">
+    <img class="bhvr2" src="groupselectors.css.png" alt="span">
+
+  </div>
+</div>
+
+<!-- BACK TO LECTURES -->
+ <div class="button">
+    <a href="lectures.html">Back to Lectures</a>
+  </div>
+ 
+</body>
+</html>

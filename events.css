@@ -1,0 +1,212 @@
+/* General look */
+body {
+    background-color: #b9e3ea;
+    padding: 0 5%;
+    font-family: "Poppins", sans-serif;
+    animation: bottomIn 1.4s ease-in-out forwards;
+}
+
+hr {
+  border: none;            
+  height: 2px;             
+  background-color: white;  
+  width: 100%;               
+  margin: 5px 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.header-logo {
+    font-size: 34px;
+    font-weight: 800;
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+.header-logo span {
+    font-size: 72px;
+    color: darkslateblue;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    margin: 5px;
+    text-align: center;
+}
+
+.nav-item {
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+    padding: 10px;
+}
+
+.nav-item::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: darkslateblue;
+    transition: width 0.3s;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.nav-item:hover {
+    color: darkslateblue;
+   transition: transform 0.3s;
+}
+
+
+/*BUWAN NG WIKA*/
+.wika {
+  background-color: floralwhite;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: solid 2px white;
+  width: 450px;
+  height: 100px;
+  font-size: 80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.wika h1 {
+  font-weight: 700;
+  background: linear-gradient(to right, darkslateblue, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+  position:relative;
+  bottom:10%;
+}
+
+.wika h3 {
+  font-weight: 700;
+  background: linear-gradient(to right, darkslateblue, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+  position:relative;
+  bottom:10%;
+}
+
+.content p {
+  background-color: white;
+  border: 2px solid darkslateblue;
+  font-size: 90%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.content h4 {
+  font-size: 130%;
+  margin:5px;
+  background: linear-gradient(to right, darkslateblue, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* PICTURES */
+
+.buwan{
+   width: 400px;
+   height: 200px;
+   margin: 20px;
+   border: 2px dashed darkslateblue;
+   border-radius: 15px;
+   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s, box-shadow 0.3s;
+   animation: float 3s ease-in-out infinite alternate;
+   position: relative;
+   left: 15%;
+   transform: translateX(-50%);
+
+}
+
+/* VIDEO */
+
+video {
+  width: 500px;                  /* fixed width */
+  height: auto;                  /* maintain aspect ratio */
+  border: 5px solid darkslateblue;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  position: relative;
+  left: 30%;
+  transform: translateX(-50%);
+  animation: float 3s ease-in-out infinite;
+}
+
+
+
+.buwan2 {
+  width: 200px;                /* fixed width */
+  height: 350px;                 /* maintain aspect ratio */
+  transition: transform 0.3s ease;
+  position: relative;
+  left: 37%;
+  transform: translateX(-50%);
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Back to Homepage Button */
+.back-btn {
+    margin: 20px 0;
+}
+
+.back-btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.back-btn a:hover {
+    background-color: teal;
+    transform: scale(1.05);
+}
+
+/* ANIMATION */
+
+@keyframes bottomIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Keyframes for gentle floating motion */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

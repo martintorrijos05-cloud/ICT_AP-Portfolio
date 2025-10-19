@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width-device-width,
+     initial-scale=1.0">
+     <title>Lesson 6</title>
+
+     <!-- Icons -->
+     <link rel="stylesheets" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+     <!-- Styles -->
+     <link rel="stylesheet" href="ap.css">
+
+     <!--Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<section id="hero">
+  <header>
+    <a class="header-logo">E-Portfolio<span>.</span></a>
+    <nav>
+      <a class="nav-item" href="TORRIJOS_E-Portfolio.html">Home</a>
+      <a class="nav-item" href="MyPersonalSpace.html">Personal Space</a>
+      <a class="nav-item" href="tle.html">TLE-ICT</a>
+      <a class="nav-item" href="ap.html">AP</a>
+    </nav>
+  </header>
+
+<hr>
+<br>
+  <section>
+
+    <div class="title"> 
+       <h1> Lesson 6 </h1>
+       <h3> Ginagampanan ng Pamahalaan sa Regulasyon ng Pamilihan </h3>
+    </div>
+  </section>
+      </section>
+
+<div class="content">
+    <h3> Regulasyon ng Pamilihan </h3>
+    <p> 
+Ang <em>regulasyon ng pamilihan </em>  ay tumutukoy sa patakaran, batas, at hakbang na ipinapatupad ng pamahalaan upang apanatili ng kaayusan, patas na kompetisyon, at proteksyon ng mamimili at produsyer. Sapagkat, ito ang paraan ng gobyerno upang siguraduhin na walang mandaraya at patas lamang ang takbo ng kalakalan.
+    </p>
+</div>
+
+<div class="content">
+    <h3> Bakit kinakailangan mangialam ng Pamahalaan? </h3>
+    <p>Para maiwasan ang pananamantala gaya ng sobrang taas ng presyo at upang magkaroon ng patas na kompetisyon at maiwasan ng monopoly.  Ito ay para rin protektahan ang mga Karapatan ng mamimili laban sa mga panganib sa kalidad ng mga produkto.  Panghuli ay par amatiyak na magkakaroon ng mga pangunahing pangangailangan ang mga mamamayan.
+</p>
+</div>  
+<br>
+
+<div class="batas">
+    <img class="demand" src="pamahalaan.png">
+    <img class="demand" src="pamahalaan1.png">
+</div>
+
+<div class="content">
+    <h3> Interbensyon ng Pamahalaan </h3>
+</div>  
+
+<br>
+<table>
+  <tr>
+    <th>Mga paraan</th>
+    <th>Deskripsyon</th>
+    <th>Halimbawa </th>
+  </tr>
+  <tr>
+    <td>Price Control</td>
+    <td><b> Price ceiling:</b> Maximum na presyo na puwedeng itakda ng mga produsyer.<br> <b>Price Floor:</b> Minimum na presyo ara hindi malugi ang mga produsyer. </td>
+    <td><b> P.Co. -</b> Bawal ibenta lagpas saitinakdang presyo ng DTI ang bigas. <br> <b>P.Ce. -</b> Pagtakda ng minimum price para sa mga magsasaka.
+  </tr>
+  <tr>
+    <td>Buwis at Subsidy</td>
+    <td><b> Buwis </b> - Sinasama sa mga produkto upang mabawasan ang sobra-sobrang pagkonsumo at para kumita rin ang pamahalaan. <br><b> Subsidy</b> - Tulong pinansiyal mula sa gobyerno para mapababa ang presyo ng produkto.</td>
+    <td> <b>Buwis</b> - tax sa mga alak at sigarilyo. <br> <b> Subsidy </b>- Pagbili ng gobyerno sa bigas upang mapababa ang presyo. </td>
+  </tr>
+  <tr>
+    <td>Price Freeze</td>
+    <td>Ito ay isinasagawa ng gobyerno sa tuwing may sakuna, pinagbabawal na baguhin ang presyo ng produkto.</td>
+    <td>Hindi tumataas ang presyo ng mga pagkain tuwing may bagyo. </td>
+  </tr>
+  <tr>
+    <td>Price Monitoring</td>
+    <td>Ito ay isinasagawa ng gobyerno para i-inspeksyon ang mga pamilihan.  Sa paggawa ng mga ahensya tulad ng DTI at DA ay sinisiguro na babantayan ang mga presyo at kalidad ng mga prdukto na binebenta sa bansa..</td>
+    <td>Pagtatag ng DTI at DA</td>
+  </tr>
+</table>
+
+<div class="content">
+    <h3> Consumer Act </h3>
+    <p>Ito ay pinatupad ng gobyerno upang masiguro na hindi maloloko ang mamimili.  At para siguraduhin na tama ang label, presyo, at kalidad ng mga produkto.
+</p>
+</div>
+
+<br>
+
+<p><em> NOTE: Lahat ng mga litrato ay kinuha mula sa internet. <br>
+https://pco.gov.ph/photos/?post_id=176680&current_page=87&o=774 <br>
+https://smninewschannel.com/nakumpiskang-smuggled-na-bigas-sa-zamboanga-ipinamahagi-ni-pbbm-sa-mga-mahihirap-na-pamilya/
+</em></p>
+
+
+<!-- BACK TO LECTURES -->
+ <div class="button">
+    <a href="ap.html">Back to Lectures</a>
+  </div>
+ 
+</body>
+</html>

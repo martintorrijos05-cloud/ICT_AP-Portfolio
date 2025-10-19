@@ -1,0 +1,199 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width-device-width,
+     initial-scale=1.0">
+     <title>My Personal Space</title>
+
+     <!-- Icons -->
+     <link rel="stylesheets" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+     <!-- Styles -->
+     <link rel="stylesheet" href="space.css">
+
+     <!--Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<section id="hero">
+  <header>
+    <a class="header-logo">E-Portfolio<span>.</span></a>
+    <nav>
+      <a class="nav-item" href="TORRIJOS_E-Portfolio.html">Home</a>
+      <a class="nav-item" href="#aboutme">About Me!</a>
+      <a class="nav-item" href="#friends">Circle of Friends</a>
+      <a class="nav-item" href="#family">Family</a>
+      <a class="nav-item" href="#memories">Memories</a>
+    </nav>
+  </header>
+
+<hr>
+<br> <br>
+<!-- HERO CONTENT -->
+  <div class="aboutme">
+    <div class="right">
+      <h1 id="aboutme">Martin Lemuel T. Torrijos</h1>
+      <h4>15 years old</h4>
+      <h4>May 15, 2010</h4>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="left">
+    <!-- SELF PICTURES -->
+    <div>
+      <img class="hero0-img" src="self.jfif" alt="Profile photo">
+    </div>
+
+    <div>
+      <img class="hero0-img" src="self2.jfif" alt="Profile photo">
+    </div>
+
+    <div>
+      <img class="hero0-img" src="self3.jfif" alt="Profile photo">
+    </div>
+
+    <div>
+      <img class="hero0-img" src="self4.jfif" alt="Profile photo">
+    </div>
+  </div>
+
+  <div class="favorites">
+    <table>
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Favorites</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Movies/Series</td>
+          <td>My Hero Academia, The Good Bad Mother, Twinkling Watermelon</td>
+        </tr>
+        <tr>
+          <td>Food</td>
+          <td>Ramen, Sinigang, Chicken, Chinese food</td>
+        </tr>
+        <tr>
+          <td>Hobbies</td>
+          <td>Cooking, Sleeping, Drawing</td>
+        </tr>
+        <tr>
+          <td>Sports</td>
+          <td>Volleyball, Badminton, Track and Field</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
+
+
+<hr>
+
+  <!-- FRIENDS SECTION -->
+ <section>
+  <div class="cof">
+    <h1 id="friends">C.O.F.</h1>
+  </div>
+
+    <div class="group1">
+      <h2>Skinnies</h2>
+      <p>
+        3rd of June 2024, that is when I knew I had the most realest and most thoughtful best friends that I had ever had. We were at Alfonso, Cavite just hanging out and laughing our lungs out until we passed out. We had a great time and I really miss hanging out with them. When we are complete, it feels like the world just stopped and just lets us enjoy our time. Birthdays are big deals too, all of us stayed up until midnight just to greet them with a happy birthday. Being with them taught me to raise my standards when finding a circle of friends and to always lend a hand when someone needs it.
+      </p>
+ <br> <br>
+      <img class="hero1-img" src="friends2.jpeg" alt="Skinnies">
+      <img class="hero1-img" src="friends3.jfif" alt="skinnies">
+      </div>
+
+
+<br>
+    <div class="group1">
+      <h2>Consideration</h2>
+      <p>
+        Last school year, everyday was a rollercoaster. Every minute was something to be treasured about. Consideration was a part of me that I will never ever forget. They were the people who always supported each other and had our backs no matter what.
+      </p>
+<br>
+      <img class="hero1-img" src="consi.jpeg" alt="Consideration">
+    </div>
+
+
+
+    <div class="group1">
+      <h2>Fairness</h2>
+      <p>
+        Being with these people taught me how to be strong and how to stand up for myself. Even if we only have little moments with each other, they have taught me a year’s worth of life lessons. With that, I am grateful that I met them in my life.
+      </p>
+<br>
+      <img class="hero1-img" src="fairness.jpeg" alt="Fairness">
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!--FAMILY SECTION-->
+  <div class="cof">
+    <h1 id="family">Family</h1>
+  </div>
+   
+  <div class="group2">
+       <p>
+        Ever since that I can remember my family has been there to support me and encourage me to always be the best version of myself.  Being with them did not only taught me how to have good values but also felt the warmth and comfort of a family.  One of the events that I look forward to every year is Christmas because we always gather at my grandmother’s house just to celebrate it and we always share laughter and stories to one another.  
+      </p>
+   </div>
+
+<br> <br>
+
+<div class="fam">
+<img class="hero2-img" src="fam1.jpeg" alt="family">
+<img class="hero2-img" src="fam2.jpeg" alt="family">
+<img class="hero2-img" src="fam3.jfif" alt="family">
+<img class="hero2-img" src="fam4.jfif" alt="family">
+  </div>
+<br> <br>
+
+<hr>
+
+<!--VIDEOS-->
+  <div class="cof">
+    <h1 id="memories">Memories!</h1>
+  </div>
+
+<div class="video-section">
+<br>
+  <h2>My Family Trip 🎥</h2>
+  <video controls>
+    <source src="vid1.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div class="video-section">
+<br>
+  <h2> Me!🎥</h2>
+  <video controls>
+    <source src="vid3.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div class="video-section">
+<br>
+  <h2>My Consi🎥</h2>
+  <video controls>
+    <source src="vid2.mp4" type="video/mp4">
+  </video>
+</div>
+
+
+</body>
+</html>
+          
+                  

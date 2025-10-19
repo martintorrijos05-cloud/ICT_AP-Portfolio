@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Portfolio</title>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="lectures.css">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <header>
+            <a href="#" class="header-logo">E-Portfolio<span>.</span></a>
+            <nav>
+                <a class="nav-item" href="TORRIJOS_E-Portfolio.html">Home</a>
+                <a class="nav-item" href="MyPersonalSpace.html">Personal Space</a>
+                <a class="nav-item" href="tle.html">TLE-ICT</a>
+                <a class="nav-item" href="ap.html">AP</a>
+            </nav>
+        </header>
+<hr>
+
+<!-- Lesson 1 -->
+<div class="content">
+
+       <div class="Lectures">
+  <h3><a href="event1.html">Buwan ng Wika</a></h3>
+</div>
+
+  
+<br>
+
+   <div class="Lectures">
+  <h3><a href="event2.html">Intrams</a></h3>
+</div>
+
+
+<br>
+
+   <div class="Lectures">
+  <h3><a href="event3.html">Science Month</a></h3>
+</div>
+
+
+<br>
+
+   <div class="Lectures">
+  <h3><a href="event4.html">AP Month</a></h3>
+</div>
+
+
+ <br>
+
+        <div class="Lectures">
+  <h3><a href="event5.html">Teacher's Day</a></h3>
+</div>
+
+
+<br>
+
+</body>
+</html>

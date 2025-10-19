@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: powderblue;
+    padding: 0 5%;
+       animation: bottomIn 1.4s ease-in-out forwards; 
+   opacity: 0; 
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+/* Logo */
+.header-logo {
+    font-size: 32px;
+    font-weight: 800;
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+.header-logo span {
+    font-size: 72px;
+    line-height: 0.2;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item {
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+}
+
+.nav-item:hover {
+    color: darkslateblue;
+   transition: transform 0.3s;
+}
+
+/* Add underline animation on hover */
+.nav-item::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: darkslateblue;
+    transition: width 0.3s;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+/* Content sections */
+.content {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+}
+
+.content:hover {
+    color:white;
+    transform: scale(1.02);
+    transition: 0.3;
+}
+
+.Lectures a:hover {
+  color: darkslateblue;
+   transition: transform 0.3s;
+}
+
+.Lectures h3 {
+    color: darkslateblue;
+    margin-bottom: 10px;
+}
+
+.Lectures h4 {
+    color: grey;
+}
+
+.Lectures a {
+  text-decoration: none;   /* removes underline */
+  color: inherit;          /* keeps same color as parent text */
+}
+
+/* Back to Homepage Button */
+.back-btn {
+    margin: 20px 0;
+}
+
+.back-btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.back-btn a:hover {
+    background-color: teal;
+    transform: scale(1.05);
+}
+
+/* Animation */
+@keyframes bottomIn {
+   from {
+      transform: translateY(250px);
+   }
+   to {
+      transform: translateY(0);
+      opacity: 1;
+   }

@@ -1,0 +1,131 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width-device-width,
+     initial-scale=1.0">
+     <title>Lesson 5</title>
+
+     <!-- Icons -->
+     <link rel="stylesheets" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+     <!-- Styles -->
+     <link rel="stylesheet" href="ap.css">
+
+     <!--Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<section id="hero">
+  <header>
+    <a class="header-logo">E-Portfolio<span>.</span></a>
+    <nav>
+      <a class="nav-item" href="TORRIJOS_E-Portfolio.html">Home</a>
+      <a class="nav-item" href="MyPersonalSpace.html">Personal Space</a>
+      <a class="nav-item" href="tle.html">TLE-ICT</a>
+      <a class="nav-item" href="ap.html">AP</a>
+    </nav>
+  </header>
+
+<hr>
+<br>
+  <section>
+
+    <div class="title"> 
+       <h1> Lesson 5 </h1>
+       <h3> Iba't Ibang Estraktura ng Pamilihan </h3>
+    </div>
+  </section>
+      </section>
+
+<div class="content">
+    <h3> Kahulugan </h3>
+    <p> 
+Ang <em> estraktura ng pamahalaan </em>  ay tumutukoy sa kung paano nakaayos ang ugnayan ng mga konsyumer at produsyer sa isang ekonomiya.  Ipinapakita rito kung gaano karaming sellers ang nagkokontrol ng presyo, kalidad, at dami ng produkto sa merkado.
+    </p>
+</div>
+
+<div class="content">
+    <h3> Dalawang Uri ng Kompetisyon </h3>
+    <p>
+<b> GANAP: </b> Ang pamilihan ay sinasabing may ganap na kompetisyon kapag ang sinumang negosyante ay walang kapangyarihan na palitan o baguhin ang presyo ng pamilihan. Mga Katangian: <br>
+<ol style="padding: 15px;">
+ <li> Magkakatulad ang mga produkto </li>
+ <li> Marami ang mamimili at tindera ng produkto </li>
+ <li> May kalayaan sa paglabas at pagpasok sa negosyo </li>
+ <li> Malayang paggalaw ng mga salik ng produksyon </li>
+ <li> Sapat na kaalaman at impormasyon </li>
+</ol>
+<p>
+<b> DI-GANAP: </b> Mayroong kumokontrol sa presyo, may hadlang sa pagpasok ng negosyante at tindera sa industriya, nabibilang ang dami ng mamimili at negosyante, at limitado ang pagpipiliang produkto.
+</p>
+</div>  
+
+
+<br>
+<table>
+  <tr>
+    <th>Uri ng Pamilihian</th>
+    <th>Deskripsyon</th>
+    <th>Halimbawa</th>
+  </tr>
+  <tr>
+    <td>Ganap ng Kompetisyon (Perfect Competition)</td>
+    <td>Marami ang maliliit na Negosyo rito at pare-pareho ang produkto.  Wala rin may kontrol sa presyo sapagkat nakabase ito sa demand at supply. </td>
+    <td>Pagtitinda sa palengke</td>
+  </tr>
+  <tr>
+    <td>Monopolyo (Monopoly)</td>
+    <td>Iisang produsyer lamang ang nagbebenta ng produkto at may buong control a presyo at supply nito.  Mahirap itong pasukin ng bagong mga negosyo dahil sa legal at teknikal na humahadlang dito.</td>
+    <td> Meralco</td>
+  </tr>
+  <tr>
+    <td>Monopsonyo (Monopsony)</td>
+    <td>Ito ang kabaliktaran ng monopolyo na kung saan mayroon lamang iisang mamimili ng produkto. Marami ang lumikha ng produkto at serbisyo ngunit nag-iisang lamang ang mamimili sa pamilihan.</td>
+    <td> Ang pamahalaan ang nag-iisang bumibili at nagbabayad sa serbisyo ng mga sundali o militar. </td>
+  </tr>
+  <tr>
+    <td>Monopolikong Kompetisyon (Monopolistic Competition)</td>
+    <td>Maraming mga produsyers ang nagbebenta ngunit may kaibahan sa kanilang mga produkto.  May konting kontrol sa presyo dahil sa kanilang pagkakaiba sa produkto at ginagamit ang branding at advertising para makabenta.</td>
+    <td>Milktea shops </td>
+  </tr>
+  <tr>
+    <td>Oligopolyo</td>
+    <td>Iilang malalaking kompanya lang ang nagkokontrol sa buong merkado. kapag tumaas ang presyo ng isa, susunod na ang iba upang hindi malugi. Madalas mayroong price war dito. </td>
+    <td>Shell, petron, caltex, etc.</td>
+  </tr>
+  <tr>
+    <td>Kartel</td>
+    <td>Grupo ng mga kompanya na nagkakasundo sa presyo at supply.  Layunin na kontrolin ang mercado para tumaas ang kanilang kita.  Ilegal ito sa ibang mga bansa dahil nakakasama sa mga konsyumers.</td>
+    <td>Organization of Petrolium OfExportingCountries (OPEC)</td>
+  </tr>
+</table>
+
+<div class="batas">
+    <img class="demand" src="pamilihan.png">
+    <img class="demand" src="pamilihan1.png">
+</div>
+
+
+<br>
+</div>
+
+<br>
+
+<p><em> NOTE: Lahat ng mga litrato ay kinuha mula sa internet. <br>
+https://rmn.ph/economic-intelligence-ipapakalat-ng-da-sa-ilang-pamilihan/pamilihan/ <br>
+https://pia.gov.ph/tag/pbbm-2024/
+</em></p>
+
+
+<!-- BACK TO LECTURES -->
+ <div class="button">
+    <a href="ap.html">Back to Lectures</a>
+  </div>
+ 
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width-device-width,
+     initial-scale=1.0">
+     <title>Lesson 4</title>
+
+     <!-- Icons -->
+     <link rel="stylesheets" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+     <!-- Styles -->
+     <link rel="stylesheet" href="ap.css">
+
+     <!--Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<section id="hero">
+  <header>
+    <a class="header-logo">E-Portfolio<span>.</span></a>
+    <nav>
+      <a class="nav-item" href="TORRIJOS_E-Portfolio.html">Home</a>
+      <a class="nav-item" href="MyPersonalSpace.html">Personal Space</a>
+      <a class="nav-item" href="tle.html">TLE-ICT</a>
+      <a class="nav-item" href="ap.html">AP</a>
+    </nav>
+  </header>
+
+<hr>
+<br>
+  <section>
+
+    <div class="title"> 
+       <h1> Lesson 4 </h1>
+       <h3> Market Equilibrium </h3>
+    </div>
+  </section>
+      </section>
+
+<div class="content">
+    <h3> Kahulugan </h3>
+    <p> 
+Ang <em> Market Equilibrium </em>  ay ang punto kung saan nagtatagpo ng demand at supply. Sa madaling salita, ang dami ng produkto na gustong bilhin ng mga mamimili ay katumbas ng dami ng produkto na gustong ibenta ng mga prodyuser.    </p>
+</div>
+
+<div class="content">
+    <h3> Equilibrium Price </h3>
+    <p> 
+Ito ang presyo kung saan pantay ang demand at supply o tinatawag din na <em> Market-clearing price </em> dahil walang sobrang supply o kulang na demand.
+    </p>
+</div>
+
+<div class="content">
+    <h3> Surplus at Shortage </h3>
+    <p> 
+<b>Surplus</b> ang tawag kapag ang presyo ay mas mataas sa equilibrium price, mas marami ang supply kaysa sa demand. <br>
+<b> Shortage</b> naman ang tawag sa tuwing ang presyo ay mas mababa sa equilibrium price, mas marami ang gustong bumili kaysa ibenta.
+    </p>
+</div>
+
+<div class="content">
+    <h3> Pagbabago ng Equilibrium </h3>
+    <p> 
+Sa tuwing nagbabago ang demand o supply, gumagalaw ang equilibrium price at quantity. 
+    </p>
+</div>
+
+<br>
+
+<div class="batas">
+    <img class="demand" src="equal.png">
+    <img class="demand" src="equal1.png">
+</div>
+
+<br>
+
+<p><em> NOTE: Lahat ng mga litrato ay kinuha mula sa internet. <br>
+https://www.khanacademy.org/economics-finance-domain/microeconomics/supply-demand-equilibrium/market-equilibrium-tutorial/a/market-equilibrium
+</em></p>
+
+
+<!-- BACK TO LECTURES -->
+ <div class="button">
+    <a href="ap.html">Back to Lectures</a>
+  </div>
+ 
+</body>
+</html>
