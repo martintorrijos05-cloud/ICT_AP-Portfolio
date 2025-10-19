@@ -1,53 +1,19 @@
-* {
+* { 
   padding: 0;
   margin: 0;
-  outline: none;
+  outline: none; 
   border: none;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins" sans-serif;
   box-sizing: border-box;
 }
 
-body {
+body { 
   padding: 0 10%;
   background-color: lavender;
-  transition: padding 0.3s ease;
-}
-
-/* Section styling */
-#hero { 
-  padding: 0;
-}
-
-/* ===== RESPONSIVE DESIGN ===== */
-
-/* For tablets (width 1024px and below) */
-@media (max-width: 1024px) {
-  body {
-    padding: 0 6%;
-  }
-}
-
-/* For small tablets and large phones (768px and below) */
-@media (max-width: 768px) {
-  body {
-    padding: 0 4%;
-  }
-
-  #hero {
-    text-align: center;
-  }
-}
-
-/* For mobile phones (480px and below) */
-@media (max-width: 480px) {
-  body {
-    padding: 0 3%;
-    background-color: #ede7f6; /* softer lavender tone for readability */
-  }
-
-  #hero {
-    padding: 10px 0;
-  }
+} 
+#hero {
+  overflow: hidden;
+ padding: 0; }
 
 header {
    height: 100px;
@@ -271,6 +237,7 @@ h1 span {
   }
 
 }
+
 
 
 
