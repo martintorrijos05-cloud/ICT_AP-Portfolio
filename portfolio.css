@@ -3,7 +3,7 @@
   margin: 0;
   outline: none; 
   border: none;
-  font-family: "Poppins" sans-serif;
+  font-family:Poppins;
   box-sizing: border-box;
 }
 
@@ -237,6 +237,7 @@ h1 span {
   }
 
 }
+
 
 
 
