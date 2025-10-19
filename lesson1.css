@@ -169,6 +169,7 @@ nav {
    top: 70%;
    left: 0%;
    position: relative;
+     animation: float 3s ease-in-out infinite alternate;
 }
 
 .bhvr2:hover {
@@ -287,3 +288,4 @@ nav {
     transform: translateY(-10px) scale(1.03);
   }
 }
+
