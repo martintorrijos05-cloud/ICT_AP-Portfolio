@@ -10,6 +10,7 @@
 body { 
   padding: 0 10%;
   background-color: lavender;
+  font-family:Poppins;
 } 
 #hero {
   overflow: hidden;
@@ -237,6 +238,7 @@ h1 span {
   }
 
 }
+
 
 
 
