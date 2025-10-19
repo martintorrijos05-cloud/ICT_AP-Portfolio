@@ -15,7 +15,6 @@ body {
 
 /* Section styling */
 #hero { 
-  overflow: hidden;
   padding: 0;
 }
 
@@ -245,4 +244,5 @@ h1 span {
   }
 
 }
+
 
