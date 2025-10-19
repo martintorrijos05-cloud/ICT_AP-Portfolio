@@ -41,8 +41,8 @@
     </div>
   </section>
 <br>
-    <img class="bhvr2" src="lesson1.jfif">
-     <img class="bhvr2" src="lesson1a.jfif">
+    <img class="bhvr2" src="Lesson1.jfif">
+     <img class="bhvr2" src="Lesson1a.jfif">
 
 <section>
     <div class="content">
@@ -73,6 +73,7 @@ In this lesson, I learned about CSS, its benefits and use.  I learned how to mak
  
 </body>
 </html>
+
 
 
 
