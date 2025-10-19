@@ -1,20 +1,23 @@
 * { 
-  padding: 0;
-  margin: 0;
-  outline: none; 
-  border: none;
-  font-family:Poppins;
-  box-sizing: border-box;
-}
+padding: 0; 
+margin: 0; 
+outline: none; 
+border: none; 
+font-family: "Poppins", sans-serif; 
+box-sizing: border-box;
+ } 
+
 
 body { 
-  padding: 0 10%;
-  background-color: lavender;
-  font-family:Poppins;
+padding: 0 10%;
+ background-color: lavender; 
 } 
-#hero {
-  overflow: hidden;
- padding: 0; }
+
+#hero { 
+overflow: hidden;
+ padding: 0;
+ }
+
 
 header {
    height: 100px;
@@ -186,34 +189,9 @@ h1 span {
    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
    transition: transform 0.3s ease;
    animation: bottomIn 2.5s ease-out, float 3s ease-in-out infinite;
-   position: relative;
+
 }
 
-  
-/* For tablets (width 1024px and below) */
-@media (max-width: 1024px) {
-  .hero-img {
-    max-width: 300px;
-  }
-}
-
-/* For small tablets and large phones (768px and below) */
-@media (max-width: 768px) {
-  .hero-img {
-    max-width: 250px;
-    border-radius: 16px;
-  }
-}
-
-/* For mobile phones (480px and below) */
-@media (max-width: 480px) {
-  .hero-img {
-    max-width: 200px;
-    border-radius: 14px;
-    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
-    animation: bottomIn 2.5s ease-out, floatMobile 3.5s ease-in-out infinite;
-  }
-}
 
 
 /* Animation */
@@ -236,7 +214,6 @@ h1 span {
   50% {
     transform: translateY(-10px);
   }
-
 }
 
 
